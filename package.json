@@ -1,0 +1,28 @@
+{
+  "name": "javascript-quiz",
+  "version": "1.0.0",
+  "description": "JavaScript-Quiz ===============",
+  "main": "index.js",
+  "scripts": {
+    "htmlminifier": "html-minifier -c html-minifier-config.json src/quiz.html > quiz.min.html",
+    "cleancss": "cleancss src/main.css > main.min.css",
+    "compactjs": "browserify src/app.js > bundle.js",
+    "all": "npm run htmlminifier && npm run cleancss && npm run compactjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrue/JavaScript-Quiz.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrue/JavaScript-Quiz/issues"
+  },
+  "homepage": "https://github.com/jrue/JavaScript-Quiz#readme",
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "clean-css": "^3.4.10",
+    "html-minifier": "^1.2.0"
+  }
+}
