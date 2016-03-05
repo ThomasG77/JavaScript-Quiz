@@ -10153,10 +10153,20 @@ var quiz = [{
       "Martine Aubry"
     ],
     "correct": "Martine Aubry",
-    "explanation": "C'est Martine Aubry. En tant qu'élue de Lille, elle n'a pas ouvert de données sur son territoire."
+    "explanation": "C'est Martine Aubry. En tant qu'élue de Lille, elle n'a pas ouvert de données sur son territoire. Vous pouvez le confirmer en cherchant Lille sur le site http://www.opendata-map.org qui inventorie les administrations ayant ouverts leurs données."
 },
 {
-    "questions": "Quelle commune ou intercommunalité n'a pas de portail open data?",
+    "questions": "Régulièrement, Etalab organise les concours Dataconnexions, quel est le numéro de la dernière édition ?",
+    "choices": [
+      "4",
+      "6",
+      "8"
+    ],
+    "correct": "6",
+    "explanation": "Allez sur le blog http://www.etalab.gouv.fr pour confirmer."
+},
+{
+    "questions": "Quelle commune ou intercommunalité n'a pas de portail open data ?",
     "choices": [
       "Aix-En-Provence",
       "Nantes",
@@ -10166,7 +10176,7 @@ var quiz = [{
       "Aucune"
     ],
     "correct": "Aix-En-Provence",
-    "explanation": "Aix-En-Provence. Bien que la ville publie des données en open data sur http://opendata.regionpaca.fr, elle ne dispose pas d'un portail en propre. Cela n'est pas dû particulièrement à un absence d'engagement mais à un choix stratégique: certaines collectivités publient leurs données par exemple sur http://data.gouv.fr"
+    "explanation": "Aix-En-Provence. Bien que la ville publie des données en open data sur http://opendata.regionpaca.fr, elle ne dispose pas d'un portail en propre. Cela n'est pas dû particulièrement à un absence d'engagement mais à un choix stratégique: certaines collectivités publient leurs données par exemple sur http://data.gouv.fr."
 }];
 
 exports.quiztitle = quiztitle
