@@ -112,7 +112,7 @@ var quiz = [{
       "Saint-Malo",
       "Aucune"
     ],
-    "correct": "Martine Aubry",
+    "correct": "Aix-En-Provence",
     "explanation": "Aix-En-Provence. Bien que la ville publie des données en open data sur http://opendata.regionpaca.fr, elle ne dispose pas d'un portail en propre. Cela n'est pas dû particulièrement à un absence d'engagement mais à un choix stratégique: certaines collectivités publient leurs données par exemple sur http://data.gouv.fr"
 }];
 
