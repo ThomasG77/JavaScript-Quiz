@@ -20,6 +20,7 @@ var quiztitle = require("./quiz_content").quiztitle;
 */
 var quiz = require("./quiz_content").quiz;
 
+var $ = jQuery = require('jquery');
 
 /******* No need to edit below this line *********/
 var currentquestion = 0, score = 0, submt=true, picked;

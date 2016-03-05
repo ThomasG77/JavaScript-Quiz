@@ -1,4 +1,4 @@
-var quiztitle = "Quiz Title";
+var quiztitle = "OpenData Quiz";
 
 /**
 * Set the information about your questions here. The correct answer string needs to match
