@@ -10078,7 +10078,7 @@ var quiz = [{
       "Toutes les données produites et détenues par les services publics, sauf exceptions"
     ],
     "correct": "Toutes les données produites et détenues par les services publics, sauf exceptions",
-    "explanation": "Comme on parle d'ouverture de données publiques, il s'agit de toutes les données produites et détenues par les services publics, sauf exceptions. Le premier cas concerne des données personnelles possédées par les GAFA. Le deuxième s'appliquerait si on parlait d'ouverture de données public et privé confondus."
+    "explanation": "Comme on parle d'ouverture de données publiques, il s'agit de toutes les données produites et détenues par les services publics, sauf exceptions."
 },
 {
     "question": "Quelle est l'url d'accès à la plateforme open data du département de Loire-Atlantique ?",
