@@ -1,4 +1,4 @@
-var quiztitle = "OpenData Quiz";
+var quiztitle = 'OpenData Quiz';
 
 /**
 * Set the information about your questions here. The correct answer string needs to match
@@ -7,18 +7,18 @@ var quiztitle = "OpenData Quiz";
 */
 var quiz = [{
     "question": "En quoi consiste une démarche d'ouverture de données « open data » ?",
-    "image" :   "http://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Albert_Einstein_Head.jpg/220px-Albert_Einstein_Head.jpg",
+    "image": "http://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Albert_Einstein_Head.jpg/220px-Albert_Einstein_Head.jpg",
     "choices": [
         "Publier en ligne un grand volume de données",
         "Publier en ligne des données brutes librement accessibles et réutilisables par tous",
         "Publier en ligne des données secrètes afin de les exposer au plus grand nombre"
     ],
-    "correct"       :   "Publier en ligne des données brutes librement accessibles et réutilisables par tous",
-    "explanation"   :   "Il s'agit de publier en ligne des données brutes librement accessibles et réutilisables par tous. Un grand volume de donnée en ligne ne garantit les possibilités de réutilisation et publier des données secrètes peut enfreindre le droit à la vie privée. Une démarche d'ouverture de données  « open data » nécessite de respecter des règles juridiques."
+    "correct": "Publier en ligne des données brutes librement accessibles et réutilisables par tous",
+    "explanation": "Il s'agit de publier en ligne des données brutes librement accessibles et réutilisables par tous. Un grand volume de donnée en ligne ne garantit les possibilités de réutilisation et publier des données secrètes peut enfreindre le droit à la vie privée. Une démarche d'ouverture de données  « open data » nécessite de respecter des règles juridiques."
 },
 {
     "question": "Quelles sont les données concernées par une démarche d'ouverture de données publiques ?",
-    "image" :   "http://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Albert_Einstein_Head.jpg/220px-Albert_Einstein_Head.jpg",
+    "image": "http://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Albert_Einstein_Head.jpg/220px-Albert_Einstein_Head.jpg",
     "choices": [
       "Toutes les données des réseaux sociaux",
       "Toutes les données hormis les données personnelles",
@@ -29,7 +29,7 @@ var quiz = [{
 },
 {
     "question": "Quelle est l'url d'accès à la plateforme open data du département de Loire-Atlantique ?",
-    "image" :   "http://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Albert_Einstein_Head.jpg/220px-Albert_Einstein_Head.jpg",
+    "image": "http://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Albert_Einstein_Head.jpg/220px-Albert_Einstein_Head.jpg",
     "choices": [
       "open-data.loire-atlantique.fr",
       "opendata.loire-atlantique.fr",
@@ -40,7 +40,7 @@ var quiz = [{
 },
 {
     "question": "Quel est l'intrus ?",
-    "image" :   "http://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Albert_Einstein_Head.jpg/220px-Albert_Einstein_Head.jpg",
+    "image": "http://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Albert_Einstein_Head.jpg/220px-Albert_Einstein_Head.jpg",
     "choices": [
       "CADA",
       "CNIL",
@@ -51,7 +51,7 @@ var quiz = [{
 },
 {
     "question": "Parmi ces licences d'utilisation, lesquelles ne peuvent pas être associées à des données open data ?",
-    "image" :   "http://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Albert_Einstein_Head.jpg/220px-Albert_Einstein_Head.jpg",
+    "image": "http://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Albert_Einstein_Head.jpg/220px-Albert_Einstein_Head.jpg",
     "choices": [
       "CC-BY-NC, LO",
       "ODBL, LO",
@@ -62,6 +62,7 @@ var quiz = [{
 },
 {
     "question": "Quel format n'est pas open data ?",
+    "image": "http://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Albert_Einstein_Head.jpg/220px-Albert_Einstein_Head.jpg",
     "choices": [
       "CSV",
       "PDF",
@@ -72,6 +73,7 @@ var quiz = [{
 },
 {
     "question": "Quel est l'intrus dans les réutilisateurs actifs de données publiques en France ?",
+    "image": "http://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Albert_Einstein_Head.jpg/220px-Albert_Einstein_Head.jpg",
     "choices": [
       "Regards Citoyens",
       "OpenStreetMap",
@@ -84,6 +86,7 @@ var quiz = [{
 },
 {
     "question": "Quelle est l'adresse de la plateforme nationale de données publiques open data ?",
+    "image": "http://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Albert_Einstein_Head.jpg/220px-Albert_Einstein_Head.jpg",
     "choices": [
       "opendatagouv.fr",
       "data.gouv.fr",
@@ -94,6 +97,7 @@ var quiz = [{
 },
 {
     "question": "Lequel de ces élus n'a jamais publié de données ouvertes de sa ville ?",
+    "image": "http://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Albert_Einstein_Head.jpg/220px-Albert_Einstein_Head.jpg",
     "choices": [
       "Jean-Marc Ayrault",
       "Nathalie Kosciusko-Morizet",
@@ -103,7 +107,8 @@ var quiz = [{
     "explanation": "C'est Martine Aubry. En tant qu'élue de Lille, elle n'a pas ouvert de données sur son territoire. Vous pouvez le confirmer en cherchant Lille sur le site http://www.opendata-map.org qui inventorie les administrations ayant ouverts leurs données."
 },
 {
-    "questions": "Régulièrement, Etalab organise les concours Dataconnexions, quel est le numéro de la dernière édition ?",
+    "question": "Régulièrement, Etalab organise les concours Dataconnexions, quel est le numéro de la dernière édition ?",
+    "image": "http://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Albert_Einstein_Head.jpg/220px-Albert_Einstein_Head.jpg",
     "choices": [
       "4",
       "6",
@@ -113,13 +118,13 @@ var quiz = [{
     "explanation": "Allez sur le blog http://www.etalab.gouv.fr pour confirmer."
 },
 {
-    "questions": "Quelle commune ou intercommunalité n'a pas de portail open data ?",
+    "question": "Quelle commune ou intercommunalité n'a pas de portail open data ?",
+    "image": "http://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Albert_Einstein_Head.jpg/220px-Albert_Einstein_Head.jpg",
     "choices": [
       "Aix-En-Provence",
       "Nantes",
       "Paris",
       "Grenoble",
-      "Saint-Malo",
       "Aucune"
     ],
     "correct": "Aix-En-Provence",

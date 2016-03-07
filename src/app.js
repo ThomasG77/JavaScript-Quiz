@@ -46,7 +46,11 @@ jQuery(document).ready(function($){
         if(typeof choices !== "undefined" && $.type(choices) == "array"){
             $('#choice-block').empty();
             for(var i=0;i<choices.length; i++){
-                $(document.createElement('li')).addClass('choice choice-box').attr('data-index', i).text(choices[i]).appendTo('#choice-block');                    
+                $(document.createElement('button'))
+                  .addClass('pure-button choice choice-box pure-u-1')
+                  .attr('data-index', i)
+                  .text(choices[i])
+                  .appendTo('#choice-block');                    
             }
         }
     }
@@ -100,12 +104,6 @@ jQuery(document).ready(function($){
      * Sets up the event listeners for each button.
      */
     function setupButtons(){
-        $('.choice').on('mouseover', function(){
-            $(this).css({'background-color':'#e1e1e1'});
-        });
-        $('.choice').on('mouseout', function(){
-            $(this).css({'background-color':'#fff'});
-        })
         $('.choice').on('click', function(){
             picked = $(this).attr('data-index');
             $('.choice').removeAttr('style').off('mouseout mouseover');
@@ -148,7 +146,7 @@ jQuery(document).ready(function($){
     function init(){
         //add title
         if(typeof quiztitle !== "undefined" && $.type(quiztitle) === "string"){
-            $(document.createElement('h1')).text(quiztitle).appendTo('#frame');
+            $(document.createElement('h1')).html(quiztitle).appendTo('#frame');
         } else {
             $(document.createElement('h1')).text("Quiz").appendTo('#frame');
         }
@@ -170,7 +168,7 @@ jQuery(document).ready(function($){
             //add image if present
             if(quiz[0].hasOwnProperty('image') && quiz[0]['image'] != ""){
                 $(document.createElement('img'))
-                  .addClass('question-image')
+                  .addClass('pure-img question-image')
                   .attr('id', 'question-image')
                   .attr('src', quiz[0]['image'])
                   .attr('alt', htmlEncode(quiz[0]['question']))
@@ -183,20 +181,20 @@ jQuery(document).ready(function($){
               .appendTo('#frame');
         
             //questions holder
-            $(document.createElement('ul')).attr('id', 'choice-block').appendTo('#frame');
+            $(document.createElement('div')).attr('id', 'choice-block').appendTo('#frame');
         
             //add choices
             addChoices(quiz[0]['choices']);
         
             //add submit button
             $(document.createElement('div'))
-              .addClass('choice-box')
+              .addClass('button-xlarge pure-button pure-u-1')
               .attr('id', 'submitbutton')
               .text(translate.check_answer_label)
               .css({
                 'font-weight':700,
                 'color':'#222',
-                'padding':'30px 0'
+                'padding':'15px 0'
               })
               .appendTo('#frame');
         

@@ -3,10 +3,21 @@
   "version": "1.0.0",
   "description": "JavaScript-Quiz ===============",
   "main": "index.js",
+  "browser": {
+    "jquery": "./vendor/zepto.min.js"
+  },
+  "browserify-shim": {
+    "jquery": "$"
+  },
+  "browserify": {
+    "transform": [
+      "browserify-shim"
+    ]
+  },
   "scripts": {
     "htmlminifier": "html-minifier -c html-minifier-config.json src/quiz.html > quiz.min.html",
-    "cleancss": "cleancss src/main.css > main.min.css",
-    "compactjs": "browserify src/app.js > bundle.js",
+    "cleancss": "cleancss vendor/pure-min.css src/main.css > main.min.css",
+    "compactjs": "browserify src/app.js | uglifyjs > bundle.js",
     "all": "npm run htmlminifier && npm run cleancss && npm run compactjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,9 +34,10 @@
   "devDependencies": {
     "browserify": "^13.0.0",
     "clean-css": "^3.4.10",
-    "html-minifier": "^1.2.0"
+    "html-minifier": "^1.2.0",
+    "uglify-js": "^2.6.2"
   },
   "dependencies": {
-    "jquery": "^2.2.1"
+    "browserify-shim": "^3.8.12"
   }
 }
